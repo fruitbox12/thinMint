@@ -14,7 +14,7 @@ const Navbar = () => {
                     <div className='mintlogo'>
                         <Image src="/logomint.png" alt="me" width="64" height="64" />
                     </div>
-                    <h1>GreenBlue<span>Marketplace</span></h1>
+                    <h1>Nature<span>Token</span></h1>
                 </div>
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                 <Link activeClass="active" to="top" spy={true} smooth={true} duration={500} >
