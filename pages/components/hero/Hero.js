@@ -46,7 +46,7 @@ const Hero = () => {
                             }}
                             onInit={(typewriter) => {
                                 typewriter
-                                .typeString("New Cryptocurrency")
+                                .typeString("Sustainability")
                                 .pauseFor(1500)
                                 .deleteAll()
                                 .pauseFor(500)
@@ -54,7 +54,7 @@ const Hero = () => {
                                 .pauseFor(1500)
                                 .deleteAll()
                                 .pauseFor(500)
-                                .typeString("Fungible Gaming Coin")
+                                .typeString("")
                                 .pauseFor(1500)
                                 .deleteAll()
                                 .pauseFor(500)
@@ -70,7 +70,7 @@ const Hero = () => {
                             }}
                         />
                     </div>
-                    <h1>with thin<span>Mint</span></h1>
+                    <h1>with Nature<span>Token</span></h1>
                     <div className="two-button">
                             <Link className='button' activeClass="active" to="generate" spy={true} smooth={true} duration={500} >
                                      MINT
